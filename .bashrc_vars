@@ -10,13 +10,14 @@ then
   if [ -d "$HOME/.gems/bin" ]; then
     PATH="$HOME/.gems/bin:$PATH"
   fi
-
-  # vendor configs
-  if [ -f ~/.bashrc_vendor ]; then
-    . ~/.bashrc_vendor
-  fi
-  export MYDOTS=yes
 fi
+
+# vendor configs
+# we need to load this always for tmux compatibility
+if [ -f ~/.bashrc_vendor ]; then
+  . ~/.bashrc_vendor
+fi
+export MYDOTS=yes
 
 #set editor
 export EDITOR=vim
