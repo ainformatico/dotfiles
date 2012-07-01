@@ -1,0 +1,7 @@
+#ignore ssh keys
+.ssh/*
+!.ssh/config
+
+#ignore xmonad compiled files
+.xmonad/
+!.xmonad/xmonad.hs
