@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# download a file to the current location
+
+cd $NAUTILUS_SCRIPT_CURRENT_URI
+FILE=`gdialog --title "File to download" --inputbox 2>&1`
+wget -c $FILE
+RETURN=$?
+case $RETURN in
+  *)
+esac
+if [ $RETURN -ne 0 ]
+then
+  gdialog --title "ERROR" --msgbox "Error code: $RETURN"
+fi
