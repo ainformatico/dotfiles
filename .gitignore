@@ -3,5 +3,5 @@
 !.ssh/config
 
 #ignore xmonad compiled files
-.xmonad/
+.xmonad/*
 !.xmonad/xmonad.hs
