@@ -1,0 +1,22 @@
+#use glob syntax
+syntax: glob
+tmp/
+_tmp*
+prototype/www/
+output/
+.sass-cache
+.~*
+.*~
+Thumbs.db
+session.vim
+rhelp.backup
+.rbenv-*
+.DS_Store
+.vagrant
+node_modules
+npm-debug.log
+.env
+.ruby-version
+.rbenv-*
+tags
+.byebug_history
