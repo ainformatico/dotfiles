@@ -35,7 +35,10 @@
   pa = "! git add --intent-to-add . && git p"
   top = shortlog --email --summary --numbered
   prune = "! git clean -df"
-  pp = "! git pull && git push"
+  pp = "! git wipe && git pull --rebase && git push"
+  update = "! git wipe && git pull --rebase"
+  boil = "! git wipe && git rebase origin/master"
+  cook = "! git wipe && git rebase -i origin/master"
   wipe = fetch -p
   eat = stash save
   digest = stash show -p
