@@ -12,6 +12,7 @@
   ;default = matching
 
 [core]
+  excludesfile = ~/.vcsignore
 
 [log]
   follow=true
