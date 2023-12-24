@@ -12,7 +12,9 @@
   ;default = matching
 
 [core]
-  editor=vim
+
+[log]
+  follow=true
 
 [alias]
   dd = reset -p
