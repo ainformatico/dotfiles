@@ -1,7 +1,22 @@
-#ignore ssh keys
-.ssh/*
-!.ssh/config
-
-#ignore xmonad compiled files
-.xmonad/*
-!.xmonad/xmonad.hs
+#use glob syntax
+syntax: glob
+tmp/
+_tmp*
+prototype/www/
+output/
+.sass-cache
+.~*
+.*~
+Thumbs.db
+session.vim
+rhelp.backup
+.rbenv-*
+.DS_Store
+.vagrant
+node_modules
+npm-debug.log
+.env
+.ruby-version
+.rbenv-*
+tags
+.byebug_history
