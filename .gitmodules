@@ -1,6 +1,0 @@
-[submodule ".vim"]
-	path = .vim
-	url = git://github.com/ainformatico/myvim
-[submodule ".vcs"]
-	path = .vcs
-	url = git://github.com/ainformatico/myvcs
