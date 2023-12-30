@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# open a terminal in the current location
-
-cd $NAUTILUS_SCRIPT_CURRENT_URI
-gnome-terminal

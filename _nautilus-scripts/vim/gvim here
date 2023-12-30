@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-# open gvim in the current location
-
-cd $NAUTILUS_SCRIPT_CURRENT_URI
-gvim
